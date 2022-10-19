@@ -1,11 +1,14 @@
-.btn {
-  background-color: beige;
+button[disabled='disabled'],
+button:disabled {
+  background-color: #73ad21 !important;
+  color: white !important;
+  width: fit-content;
 }
 
 .relative {
   position: relative;
   width: 400px;
-  height: 200px;
+  height: 400px;
   border: 3px solid #73ad21;
 }
 
@@ -16,9 +19,27 @@
   border: 3px solid #73ad21;
 }
 
-.move-away {
+/* toggle for moving from start to moved */
+.move-to {
   position: absolute;
-  top: 0px;
-  right: 0;
   border: 3px solid #73ad21;
+}
+.top-left {
+  top: 0;
+}
+.top-right {
+  top: 0;
+  right: 0;
+}
+.bottom-left {
+  top: 0;
+  left: 0;
+}
+.bottom-right {
+  top: 350px;
+  right: 0;
+}
+.middle {
+  top: 150px;
+  right: 150px;
 }
