@@ -10,7 +10,7 @@ var buttonContainer = document.querySelector("#buttonContainer");
 // }
 
 // all positions for the button to move to
-
+// jafhj
 let currentPosition = "middle";
 const positionClasses = [
   "top-left",
