@@ -1,0 +1,64 @@
+button[disabled='disabled'],
+button:disabled {
+  background-color: rgb(128, 128, 255) !important;
+  color: white !important;
+  width: fit-content;
+}
+
+.relative {
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+
+.absolute {
+  position: absolute;
+  top: 125px;
+  right: 100px;
+}
+
+.move-to {
+  position: absolute;
+}
+
+.top-left {
+  top: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  top: 750px;
+  left: 0;
+}
+
+.bottom-right {
+  top: 750px;
+  right: 0;
+}
+
+.middle {
+  top: 325px;
+  right: 325px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}

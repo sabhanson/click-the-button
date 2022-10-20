@@ -1,16 +1,6 @@
 var buttonContainer = document.querySelector("#buttonContainer");
 
-// buttonContainer.addEventListener("mouseenter", changePosition);
-// if (buttonContainer.classList.contains("move-to")) {
-//   buttonContainer.classList.remove("move-to");
-//   buttonContainer.classList.add("absolute");
-// } else if (buttonContainer.classList.contains("absolute")) {
-//   buttonContainer.classList.remove("absolute");
-//   buttonContainer.classList.add("move-to");
-// }
-
 // all positions for the button to move to
-// jafhj
 let currentPosition = "middle";
 const positionClasses = [
   "top-left",
@@ -27,6 +17,7 @@ const changePosition = () => {
   if (currentPosition == newPosition) {
     return changePosition(); // recursive
   } else {
+    currentPosition = newPosition;
     changeCSS(newPosition);
   }
 };
