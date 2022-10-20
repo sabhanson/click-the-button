@@ -7,8 +7,8 @@ button:disabled {
 
 .relative {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border: 3px solid #73ad21;
 }
 
@@ -36,10 +36,10 @@ button:disabled {
   left: 0;
 }
 .bottom-right {
-  top: 350px;
+  top: 250px;
   right: 0;
 }
 .middle {
-  top: 150px;
-  right: 150px;
+  top: 50px;
+  right: 50px;
 }
